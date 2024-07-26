@@ -1,0 +1,114 @@
+*{  font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    border-bottom: 1px solid #ccc;
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    background-color: #db4c3f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar ul {
+    display: flex; list-style: none; margin: 0;
+}
+#navbar ul li {
+    margin-left: 12px;
+}
+#navbar ul li a {
+    text-decoration: none;
+     color:#fff
+    }
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.form-checkbox {
+    flex-direction: row;
+}
+.form-control input,
+.form-control textarea{
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.container{
+    max-width: 450px;
+    margin: 24px auto;
+}
+
+.container-form{
+    margin-top: 24px;
+}
+
+form input[type="submit"]{
+    background-color: #db4c3f;
+    color: #fff;
+    padding: 10px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list{
+    list-style: none;
+    margin-top: 12px;
+}
+.task-list li{
+    padding: 6px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list .title{
+    font-weight: bold;
+    color: #db4c3f;
+    transition: 0.5s;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.task-list .title:hover{
+    color: #333;
+}
+
+.actions{
+    display: flex;
+}
+
+.actions i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.actions i:hover{
+    color: #db4c3f;
+}
+
+.actions form{
+    margin:0;
+}
+
+.actions button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.title.done{
+    text-decoration: line-through;
+    color: #CCC;
+}
